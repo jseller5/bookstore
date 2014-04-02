@@ -30,3 +30,287 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-01 20:17:27 
 
 
 Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-01 20:17:27 -0400
+
+
+Started GET "/books/new" for 127.0.0.1 at 2014-04-01 20:21:37 -0400
+Processing by BooksController#new as HTML
+  Rendered books/new.html.erb within layouts/application (12.2ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Create a New Book</h1>
+    2: <%= form_for(@book) do |f| %>
+    3:   <%= f.label :title %> <%= f.text_field :title, autofocus: true %><br />
+    4:   <%= f.label :author %> <%= f.text_field :author %><br />
+    5:   <%= f.label :pages %> <%= f.text_field :pages %><br />
+  app/views/books/new.html.erb:2:in `_app_views_books_new_html_erb__430857743__601729428'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (63.5ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2014-04-01 20:21:37 -0400
+Processing by BooksController#new as HTML
+  Rendered books/new.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Create a New Book</h1>
+    2: <%= form_for(@book) do |f| %>
+    3:   <%= f.label :title %> <%= f.text_field :title, autofocus: true %><br />
+    4:   <%= f.label :author %> <%= f.text_field :author %><br />
+    5:   <%= f.label :pages %> <%= f.text_field :pages %><br />
+  app/views/books/new.html.erb:2:in `_app_views_books_new_html_erb__430857743__594562858'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.1ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2014-04-01 20:21:46 -0400
+Processing by BooksController#new as HTML
+  Rendered books/new.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Create a New Book</h1>
+    2: <%= form_for(@book) do |f| %>
+    3:   <%= f.label :title %> <%= f.text_field :title, autofocus: true %><br />
+    4:   <%= f.label :author %> <%= f.text_field :author %><br />
+    5:   <%= f.label :pages %> <%= f.text_field :pages %><br />
+  app/views/books/new.html.erb:2:in `_app_views_books_new_html_erb__430857743__601729428'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.8ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2014-04-01 20:21:46 -0400
+Processing by BooksController#new as HTML
+  Rendered books/new.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Create a New Book</h1>
+    2: <%= form_for(@book) do |f| %>
+    3:   <%= f.label :title %> <%= f.text_field :title, autofocus: true %><br />
+    4:   <%= f.label :author %> <%= f.text_field :author %><br />
+    5:   <%= f.label :pages %> <%= f.text_field :pages %><br />
+  app/views/books/new.html.erb:2:in `_app_views_books_new_html_erb__430857743__594562858'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.2ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2014-04-01 20:23:57 -0400
+Processing by BooksController#new as HTML
+  Rendered books/new.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Create a New Book</h1>
+    2: <%= form_for(@book) do |f| %>
+    3:   <%= f.label :title %> <%= f.text_field :title, autofocus: true %><br />
+    4:   <%= f.label :author %> <%= f.text_field :author %><br />
+    5:   <%= f.label :pages %> <%= f.text_field :pages %><br />
+  app/views/books/new.html.erb:2:in `_app_views_books_new_html_erb__430857743__594562858'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.4ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-01 20:24:02 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.7ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 20:24:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-01 20:24:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-01 20:24:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-01 20:24:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 20:24:02 -0400
+
+
+Started GET "/books/new" for 127.0.0.1 at 2014-04-01 20:24:02 -0400
+Processing by BooksController#new as HTML
+  Rendered books/new.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Create a New Book</h1>
+    2: <%= form_for(@book) do |f| %>
+    3:   <%= f.label :title %> <%= f.text_field :title, autofocus: true %><br />
+    4:   <%= f.label :author %> <%= f.text_field :author %><br />
+    5:   <%= f.label :pages %> <%= f.text_field :pages %><br />
+  app/views/books/new.html.erb:2:in `_app_views_books_new_html_erb__430857743__601729428'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.4ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2014-04-01 20:24:03 -0400
+Processing by BooksController#new as HTML
+  Rendered books/new.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h1>Create a New Book</h1>
+    2: <%= form_for(@book) do |f| %>
+    3:   <%= f.label :title %> <%= f.text_field :title, autofocus: true %><br />
+    4:   <%= f.label :author %> <%= f.text_field :author %><br />
+    5:   <%= f.label :pages %> <%= f.text_field :pages %><br />
+  app/views/books/new.html.erb:2:in `_app_views_books_new_html_erb__430857743__594562858'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.6ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-01 20:25:08 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 20:25:08 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-01 20:25:08 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-01 20:25:08 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-01 20:25:08 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 20:25:08 -0400
+
+
+Started GET "/books/new" for 127.0.0.1 at 2014-04-01 20:25:08 -0400
+Processing by BooksController#new as HTML
+  Rendered books/new.html.erb within layouts/application (47.2ms)
+Completed 200 OK in 53ms (Views: 50.9ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2014-04-01 20:26:12 -0400
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RkL1NMMtVr6yNzbFEaNaQKgCgXOGGuVbD01HkEXDI7k=", "book"=>{"title"=>"Cat in the Hat", "author"=>"Dr Suess", "pages"=>"15", "price"=>"4.99"}, "commit"=>"Create Book"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (23.0ms)[0m  INSERT INTO "books" ("author", "created_at", "pages", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["author", "Dr Suess"], ["created_at", Wed, 02 Apr 2014 00:26:12 UTC +00:00], ["pages", 15], ["price", #<BigDecimal:b8f5257c,'0.499E1',18(18)>], ["title", "Cat in the Hat"], ["updated_at", Wed, 02 Apr 2014 00:26:12 UTC +00:00]]
+  [1m[36m (6.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/books/1
+Completed 302 Found in 36ms (ActiveRecord: 29.2ms)
+
+
+Started GET "/books/1" for 127.0.0.1 at 2014-04-01 20:26:12 -0400
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered books/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 20:26:12 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-01 20:26:12 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-01 20:26:12 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-01 20:26:12 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 20:26:12 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-01 20:26:14 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2014-04-01 20:26:16 -0400
+Processing by BooksController#new as HTML
+  Rendered books/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2014-04-01 20:26:40 -0400
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RkL1NMMtVr6yNzbFEaNaQKgCgXOGGuVbD01HkEXDI7k=", "book"=>{"title"=>"Green Eggs and Ham", "author"=>"Dr. Suess", "pages"=>"15", "price"=>"4.99"}, "commit"=>"Create Book"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (3.0ms)[0m  [1mINSERT INTO "books" ("author", "created_at", "pages", "price", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["author", "Dr. Suess"], ["created_at", Wed, 02 Apr 2014 00:26:40 UTC +00:00], ["pages", 15], ["price", #<BigDecimal:b50212b8,'0.499E1',18(18)>], ["title", "Green Eggs and Ham"], ["updated_at", Wed, 02 Apr 2014 00:26:40 UTC +00:00]]
+  [1m[35m (17.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/books/2
+Completed 302 Found in 27ms (ActiveRecord: 20.5ms)
+
+
+Started GET "/books/2" for 127.0.0.1 at 2014-04-01 20:26:40 -0400
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered books/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 20:26:40 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-01 20:26:40 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-01 20:26:40 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-01 20:26:40 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 20:26:40 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-01 20:26:43 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/1" for 127.0.0.1 at 2014-04-01 20:27:03 -0400
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered books/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-01 20:27:05 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.2ms)
