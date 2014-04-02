@@ -12,7 +12,4 @@ class BooksControllerTest < ActionController::TestCase
     assert_response :success
     assert_not_nil assigns(:book)
   end
-  def new
-  @book = Book.new
-end
 end

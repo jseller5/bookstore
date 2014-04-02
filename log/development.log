@@ -314,3 +314,162 @@ Processing by BooksController#index as HTML
   [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
   Rendered books/index.html.erb within layouts/application (1.3ms)
 Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-01 20:38:02 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.8ms)
+Completed 200 OK in 35ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-01 20:39:01 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (1.3ms)
+Completed 200 OK in 23ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-01 20:39:05 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-01 20:39:22 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 30ms (Views: 27.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 20:39:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-01 20:39:22 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-01 20:39:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 20:39:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-01 20:39:22 -0400
+
+
+Started GET "/books/new" for 127.0.0.1 at 2014-04-01 20:39:24 -0400
+Processing by BooksController#new as HTML
+  Rendered books/new.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/1" for 127.0.0.1 at 2014-04-01 20:39:27 -0400
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.4ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered books/show.html.erb within layouts/application (30.7ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (undefined method `edit_book_path' for #<#<Class:0xb7f4ea90>:0xb7b0a4e8>):
+     8: </article>
+     9: 
+    10: <%= link_to 'All Books', books_path %>
+    11: | <%= link_to 'Edit', edit_book_path(@book) %>
+  app/views/books/show.html.erb:11:in `_app_views_books_show_html_erb__10459407__606584328'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.0ms)
+
+
+Started GET "/books/1" for 127.0.0.1 at 2014-04-01 20:39:27 -0400
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered books/show.html.erb within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined method `edit_book_path' for #<#<Class:0xb7f4ea90>:0xb8b0a898>):
+     8: </article>
+     9: 
+    10: <%= link_to 'All Books', books_path %>
+    11: | <%= link_to 'Edit', edit_book_path(@book) %>
+  app/views/books/show.html.erb:11:in `_app_views_books_show_html_erb__10459407__598193148'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.4ms)
+
+
+Started GET "/books/1" for 127.0.0.1 at 2014-04-01 20:40:31 -0400
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered books/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 14ms (Views: 3.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-01 20:40:31 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 20:40:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-01 20:40:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 20:40:31 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-01 20:40:31 -0400
+
+
+Started GET "/books/1/edit" for 127.0.0.1 at 2014-04-01 20:40:34 -0400
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered books/edit.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 13ms (Views: 9.9ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/books/1" for 127.0.0.1 at 2014-04-01 20:40:38 -0400
+Processing by BooksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RkL1NMMtVr6yNzbFEaNaQKgCgXOGGuVbD01HkEXDI7k=", "book"=>{"title"=>"Cat in the Hat", "author"=>"Dr. Suess", "pages"=>"15", "price"=>"4.99"}, "commit"=>"Update Book", "id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (2.5ms)[0m  [1mUPDATE "books" SET "author" = ?, "updated_at" = ? WHERE "books"."id" = 1[0m  [["author", "Dr. Suess"], ["updated_at", Wed, 02 Apr 2014 00:40:38 UTC +00:00]]
+  [1m[35m (67.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/books/1
+Completed 302 Found in 76ms (ActiveRecord: 70.4ms)
+
+
+Started GET "/books/1" for 127.0.0.1 at 2014-04-01 20:40:38 -0400
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered books/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-01 20:40:38 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-01 20:40:38 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-01 20:40:38 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-01 20:40:38 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-01 20:40:38 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-01 20:40:42 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.3ms)
