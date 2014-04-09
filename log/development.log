@@ -3183,3 +3183,403 @@ Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 19:21:28 
   [1m[36mBook Load (0.5ms)[0m  [1mSELECT "books".* FROM "books" WHERE (author like '%Tolkien%') ORDER BY "books"."price" DESC LIMIT 1[0m
   [1m[35mBook Load (0.3ms)[0m  SELECT author, title FROM "books" LIMIT 3
   [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) AS count_all, author AS author FROM "books" GROUP BY author[0m
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-08 20:19:51 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (1.5ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (99.1ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered shared/_flashes.html.erb (8.0ms)
+  Rendered layouts/_sidebar.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 213ms (Views: 183.4ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 20:19:52 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-04-08 20:19:52 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 20:19:52 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 20:19:52 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 20:19:52 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 20:19:52 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-08 20:19:56 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.4ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (11.2ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 62ms (Views: 61.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-08 20:20:01 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2014-04-08 20:20:02 -0400
+Processing by BooksController#new as HTML
+  Rendered shared/_validation_errors.html.erb (0.1ms)
+  Rendered books/_form.html.erb (21.8ms)
+  Rendered books/new.html.erb within layouts/application (23.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 57ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-08 20:20:04 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-08 20:20:05 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered shared/_flashes.html.erb (0.2ms)
+  Rendered layouts/_sidebar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-08 20:20:07 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-08 20:20:29 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 20:20:29 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 20:20:29 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 20:20:29 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-04-08 20:20:29 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 20:20:29 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 20:20:29 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-08 20:21:57 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.4ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 20:21:57 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-04-08 20:21:57 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 20:21:57 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 20:21:57 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 20:21:57 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 20:21:57 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-08 20:21:58 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-04-08 20:21:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 20:21:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 20:21:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 20:21:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 20:21:58 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 20:21:58 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-08 20:23:11 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 31ms (Views: 17.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 20:23:11 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-04-08 20:23:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 20:23:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 20:23:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 20:23:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 20:23:11 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-08 20:23:14 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 146ms (Views: 145.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-04-08 20:23:14 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 20:23:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 20:23:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 20:23:14 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 20:23:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 20:23:14 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-08 20:23:15 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 20:23:15 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-04-08 20:23:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 20:23:15 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 20:23:15 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 20:23:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 20:23:15 -0400
+
+
+Started GET "/books/new" for 127.0.0.1 at 2014-04-08 20:23:23 -0400
+Processing by BooksController#new as HTML
+  Rendered shared/_validation_errors.html.erb (0.1ms)
+  Rendered books/_form.html.erb (4.0ms)
+  Rendered books/new.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2014-04-08 20:23:25 -0400
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7Tq28IDdHXPhlkZ+C17j1PXMBxXRnmgOBP8/T8tQm1E=", "book"=>{"title"=>"", "author"=>"", "pages"=>"", "price"=>""}, "commit"=>"Create Book"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered shared/_validation_errors.html.erb (3.0ms)
+  Rendered books/_form.html.erb (6.8ms)
+  Rendered books/new.html.erb within layouts/application (7.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 16.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 20:23:25 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-04-08 20:23:25 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 20:23:25 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 20:23:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 20:23:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 20:23:25 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-08 20:23:28 -0400
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.5ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-04-08 20:23:28 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 20:23:28 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 20:23:28 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 20:23:28 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 20:23:28 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 20:23:28 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-08 20:34:22 -0400
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 39ms
+
+ActionView::Template::Error (couldn't find file 'bootstrap'
+  (in /home/student/Workspace/bookstore/app/assets/stylesheets/application.css:13)):
+    3: <html>
+    4: <head>
+    5:   <title>Awesome Books <%= yield :title %></title>
+    6:   <%= stylesheet_link_tag    "application", media: "all" %>
+    7:   <%= javascript_include_tag "application" %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__835805276__626983578'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.1ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.9ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-08 20:34:56 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (7.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered shared/_flashes.html.erb (0.6ms)
+  Rendered layouts/_sidebar.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 1517ms (Views: 1498.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-08 20:34:58 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-08 20:34:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-08 20:34:58 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-04-08 20:34:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-08 20:34:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-08 20:34:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-08 20:34:58 -0400
