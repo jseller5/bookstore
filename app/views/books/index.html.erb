@@ -3,7 +3,7 @@
 <%= page_entries_info @books %>
 <ol>
 <% @books.each do |book| %>
-  <li><%= link_to(book.title, book) %> by <%= book.author %></li>
+  <li class="well"><%= link_to(book.title, book) %> by <%= book.author %></li>
 <% end %>
 </ol>
 <%= paginate @books %>
