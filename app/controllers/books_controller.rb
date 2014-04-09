@@ -6,9 +6,9 @@ def set_book
   @book = Book.find(params[:id])
 end
   def index
-  	@available_at = Time.now
-	@books = Book.all
-  end
+  @available_at = Time.now
+  @books = Book.order(:title).page(params[:page])
+end
   def show
 
   end
