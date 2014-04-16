@@ -7077,3 +7077,633 @@ Processing by ReviewsController#new as HTML
   Rendered layouts/_sidebar.html.erb (0.1ms)
   Rendered layouts/_footer.html.erb (0.0ms)
 Completed 200 OK in 58ms (Views: 48.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/books/2/reviews/new" for 127.0.0.1 at 2014-04-15 20:10:18 -0400
+Processing by ReviewsController#new as HTML
+  Parameters: {"book_id"=>"2"}
+Completed 500 Internal Server Error in 20ms
+
+SyntaxError (/home/student/Workspace/bookstore/app/models/book.rb:18: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/reviews_controller.rb:29:in `set_book'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.8ms)
+
+
+Started GET "/books/2/reviews" for 127.0.0.1 at 2014-04-15 20:10:59 -0400
+Processing by ReviewsController#index as HTML
+  Parameters: {"book_id"=>"2"}
+Completed 500 Internal Server Error in 1ms
+
+SyntaxError (/home/student/Workspace/bookstore/app/models/book.rb:18: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/reviews_controller.rb:29:in `set_book'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.6ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.3ms)
+
+
+Started GET "/books/2" for 127.0.0.1 at 2014-04-15 20:11:01 -0400
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (/home/student/Workspace/bookstore/app/models/book.rb:18: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/books_controller.rb:6:in `set_book'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.6ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-15 20:11:02 -0400
+Processing by BooksController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (/home/student/Workspace/bookstore/app/models/book.rb:18: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/books_controller.rb:10:in `index'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.2ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2014-04-15 20:11:02 -0400
+Processing by BooksController#new as HTML
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (/home/student/Workspace/bookstore/app/models/book.rb:18: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/books_controller.rb:16:in `new'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.3ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-15 20:11:03 -0400
+Processing by BooksController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (/home/student/Workspace/bookstore/app/models/book.rb:18: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/books_controller.rb:10:in `index'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.4ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (39.7ms)
+
+
+Started GET "/books/2/reviews" for 127.0.0.1 at 2014-04-15 20:11:04 -0400
+Processing by ReviewsController#index as HTML
+  Parameters: {"book_id"=>"2"}
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (/home/student/Workspace/bookstore/app/models/book.rb:18: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/reviews_controller.rb:29:in `set_book'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.6ms)
+
+
+Started GET "/books/2" for 127.0.0.1 at 2014-04-15 20:11:04 -0400
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (/home/student/Workspace/bookstore/app/models/book.rb:18: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/books_controller.rb:6:in `set_book'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.9ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-15 20:11:05 -0400
+Processing by BooksController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (/home/student/Workspace/bookstore/app/models/book.rb:18: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/books_controller.rb:10:in `index'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.7ms)
+
+
+Started GET "/books/2" for 127.0.0.1 at 2014-04-15 20:11:06 -0400
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (/home/student/Workspace/bookstore/app/models/book.rb:18: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/books_controller.rb:6:in `set_book'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.2ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-15 20:12:28 -0400
+Processing by BooksController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+SyntaxError (/home/student/Workspace/bookstore/app/models/book.rb:18: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/books_controller.rb:10:in `index'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.9ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-15 20:12:31 -0400
+Processing by BooksController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (/home/student/Workspace/bookstore/app/models/book.rb:18: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/books_controller.rb:10:in `index'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.6ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-15 20:13:12 -0400
+Processing by BooksController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+SyntaxError (/home/student/Workspace/bookstore/app/models/book.rb:18: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/books_controller.rb:10:in `index'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.9ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-15 20:13:18 -0400
+Processing by BooksController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (/home/student/Workspace/bookstore/app/models/book.rb:18: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/books_controller.rb:10:in `index'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.1ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-15 20:14:07 -0400
+Processing by BooksController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books"[0m
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books" ORDER BY "books"."title" ASC LIMIT 5 OFFSET 0
+  [1m[36mReview Load (0.3ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" IN (2, 3, 4, 1)[0m
+  Rendered books/index.html.erb within layouts/application (95.6ms)
+Completed 500 Internal Server Error in 101ms
+
+ActionView::Template::Error (undefined method `average' for []:Array):
+     6:   <li>
+     7:   <%= link_to(book.title, book) %>
+     8:   by <%= book.author %><br/>
+     9:   <%= format_average_stars(book) %>
+    10:   <% if book.reviews.any? %>
+    11:     (out of <%= pluralize(book.reviews.size, 'review') %>)
+    12:   <% end %>
+  app/models/book.rb:14:in `average_stars'
+  app/helpers/books_helper.rb:6:in `format_average_stars'
+  app/views/books/index.html.erb:9:in `block in _app_views_books_index_html_erb___23147002__631885478'
+  app/views/books/index.html.erb:5:in `_app_views_books_index_html_erb___23147002__631885478'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.5ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-15 20:16:15 -0400
+Processing by BooksController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY "books"."title" ASC LIMIT 5 OFFSET 0[0m
+  [1m[35mReview Load (0.3ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" IN (2, 3, 4, 1)
+  Rendered books/index.html.erb within layouts/application (11.7ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined method `average' for []:Array):
+     6:   <li>
+     7:   <%= link_to(book.title, book) %>
+     8:   by <%= book.author %><br/>
+     9:   <%= format_average_stars(book) %>
+    10:   <% if book.reviews.any? %>
+    11:   (out of <%= pluralize(book.reviews.size, 'review') %>)
+    12:   <% end %>
+  app/models/book.rb:14:in `average_stars'
+  app/helpers/books_helper.rb:6:in `format_average_stars'
+  app/views/books/index.html.erb:9:in `block in _app_views_books_index_html_erb___23147002__620519188'
+  app/views/books/index.html.erb:5:in `_app_views_books_index_html_erb___23147002__620519188'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.8ms)
+
+
+Started GET "/books/" for 127.0.0.1 at 2014-04-15 20:16:36 -0400
+Processing by BooksController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books"[0m
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books" ORDER BY "books"."title" ASC LIMIT 5 OFFSET 0
+  [1m[36mReview Load (0.2ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" IN (2, 3, 4, 1)[0m
+  Rendered books/index.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined method `average' for []:Array):
+     6:   <li>
+     7:   <%= link_to(book.title, book) %>
+     8:   by <%= book.author %><br/>
+     9:   <%= format_average_stars(book) %>
+    10:   <% if book.reviews.any? %>
+    11:   (out of <%= pluralize(book.reviews.size, 'review') %>)
+    12:   <% end %>
+  app/models/book.rb:14:in `average_stars'
+  app/helpers/books_helper.rb:6:in `format_average_stars'
+  app/views/books/index.html.erb:9:in `block in _app_views_books_index_html_erb___23147002__620519188'
+  app/views/books/index.html.erb:5:in `_app_views_books_index_html_erb___23147002__620519188'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.9ms)
+
+
+Started GET "/books/" for 127.0.0.1 at 2014-04-15 20:19:45 -0400
+Processing by BooksController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY "books"."title" ASC LIMIT 5 OFFSET 0[0m
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" IN (2, 3, 4, 1)
+  Rendered books/index.html.erb within layouts/application (12.0ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (undefined method `average' for []:Array):
+     6: <li>
+     7:   <%= link_to(book.title, book) %>
+     8:   by <%= book.author %><br/>
+     9:   <%= format_average_stars(book) %>
+    10:   <% if book.reviews.any? %>
+    11:     (out of <%= pluralize(book.reviews.size, 'review') %>)
+    12:   <% end %>
+  app/models/book.rb:14:in `average_stars'
+  app/helpers/books_helper.rb:6:in `format_average_stars'
+  app/views/books/index.html.erb:9:in `block in _app_views_books_index_html_erb___23147002__620552028'
+  app/views/books/index.html.erb:5:in `_app_views_books_index_html_erb___23147002__620552028'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.6ms)
+
+
+Started GET "/books/" for 127.0.0.1 at 2014-04-15 20:19:59 -0400
+Processing by BooksController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books"[0m
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books" ORDER BY "books"."title" ASC LIMIT 5 OFFSET 0
+  [1m[36mReview Load (0.3ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" IN (2, 3, 4, 1)[0m
+  Rendered books/index.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined method `average' for []:Array):
+     6: <li>
+     7:   <%= link_to(book.title, book) %>
+     8:   by <%= book.author %><br/>
+     9:   <%= format_average_stars(book) %>
+    10:   <% if book.reviews.any? %>
+    11:     (out of <%= pluralize(book.reviews.size, 'review') %>)
+    12:   <% end %>
+  app/models/book.rb:14:in `average_stars'
+  app/helpers/books_helper.rb:6:in `format_average_stars'
+  app/views/books/index.html.erb:9:in `block in _app_views_books_index_html_erb___23147002__620552028'
+  app/views/books/index.html.erb:5:in `_app_views_books_index_html_erb___23147002__620552028'
+
+
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/student/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.1ms)
+
+
+Started GET "/books/" for 127.0.0.1 at 2014-04-15 20:21:54 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BooksController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY "books"."title" ASC LIMIT 5 OFFSET 0[0m
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" IN (2, 3, 4, 1)
+  Rendered books/index.html.erb within layouts/application (39.9ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered shared/_flashes.html.erb (0.7ms)
+  Rendered layouts/_sidebar.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 284ms (Views: 262.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:21:54 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:21:54 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:21:54 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-15 20:21:54 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-04-15 20:21:54 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:21:54 -0400
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-04-15 20:21:54 -0400
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-04-15 20:21:54 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:21:54 -0400
+
+
+Started GET "/books/2" for 127.0.0.1 at 2014-04-15 20:23:02 -0400
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBook Load (0.4ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (3.3ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."book_id" = ?  [["book_id", 2]]
+  Rendered books/show.html.erb within layouts/application (11.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+  Rendered layouts/_sidebar.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 33.9ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/books/2/reviews" for 127.0.0.1 at 2014-04-15 20:23:12 -0400
+Processing by ReviewsController#index as HTML
+  Parameters: {"book_id"=>"2"}
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = ? ORDER BY created_at desc  [["book_id", 2]]
+  Rendered reviews/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 29ms (Views: 24.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books/2/reviews/new" for 127.0.0.1 at 2014-04-15 20:23:13 -0400
+Processing by ReviewsController#new as HTML
+  Parameters: {"book_id"=>"2"}
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered shared/_validation_errors.html.erb (2.7ms)
+  Rendered reviews/_form.html.erb (13.1ms)
+  Rendered reviews/new.html.erb within layouts/application (14.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 42ms (Views: 30.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/books/2/reviews" for 127.0.0.1 at 2014-04-15 20:24:20 -0400
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"G9+KxdRLsja3yJvzhT9e0wP3li0HV5by6eJSbTOY1hg=", "review"=>{"name"=>"John", "stars"=>"3", "comment"=>"Review comment"}, "commit"=>"Create Review", "book_id"=>"2"}
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered shared/_validation_errors.html.erb (1.7ms)
+  Rendered reviews/_form.html.erb (11.0ms)
+  Rendered reviews/new.html.erb within layouts/application (12.6ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 72ms (Views: 65.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:24:21 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-15 20:24:21 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:21 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-04-15 20:24:21 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:21 -0400
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-04-15 20:24:21 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:21 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:21 -0400
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:21 -0400
+
+
+Started POST "/books/2/reviews" for 127.0.0.1 at 2014-04-15 20:24:28 -0400
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"G9+KxdRLsja3yJvzhT9e0wP3li0HV5by6eJSbTOY1hg=", "review"=>{"name"=>"John", "stars"=>"3", "comment"=>"Review commentdffesfwerfwefwe"}, "commit"=>"Create Review", "book_id"=>"2"}
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (8.3ms)[0m  [1mINSERT INTO "reviews" ("book_id", "comment", "created_at", "name", "stars", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["book_id", 2], ["comment", "Review commentdffesfwerfwefwe"], ["created_at", Wed, 16 Apr 2014 00:24:28 UTC +00:00], ["name", "John"], ["stars", 3], ["updated_at", Wed, 16 Apr 2014 00:24:28 UTC +00:00]]
+  [1m[35m (13.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/books/2/reviews
+Completed 302 Found in 29ms (ActiveRecord: 22.2ms)
+
+
+Started GET "/books/2/reviews" for 127.0.0.1 at 2014-04-15 20:24:28 -0400
+Processing by ReviewsController#index as HTML
+  Parameters: {"book_id"=>"2"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mReview Load (0.1ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = ? ORDER BY created_at desc  [["book_id", 2]]
+  Rendered reviews/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:24:28 -0400
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-04-15 20:24:28 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-04-15 20:24:28 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-15 20:24:28 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:28 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:28 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:28 -0400
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:28 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:28 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-15 20:24:33 -0400
+Processing by BooksController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books"[0m
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books" ORDER BY "books"."title" ASC LIMIT 5 OFFSET 0
+  [1m[36mReview Load (0.1ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" IN (2, 3, 4, 1)[0m
+  Rendered books/index.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books/2" for 127.0.0.1 at 2014-04-15 20:24:42 -0400
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."book_id" = ?[0m  [["book_id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT AVG("reviews"."stars") AS avg_id FROM "reviews" WHERE "reviews"."book_id" = ?  [["book_id", 2]]
+  Rendered books/show.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 28ms (Views: 25.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/books/2/reviews" for 127.0.0.1 at 2014-04-15 20:24:46 -0400
+Processing by ReviewsController#index as HTML
+  Parameters: {"book_id"=>"2"}
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = ? ORDER BY created_at desc  [["book_id", 2]]
+  Rendered reviews/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 32ms (Views: 29.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/books/2/reviews/new" for 127.0.0.1 at 2014-04-15 20:24:48 -0400
+Processing by ReviewsController#new as HTML
+  Parameters: {"book_id"=>"2"}
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered shared/_validation_errors.html.erb (0.1ms)
+  Rendered reviews/_form.html.erb (8.7ms)
+  Rendered reviews/new.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 44.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/books/2/reviews" for 127.0.0.1 at 2014-04-15 20:24:54 -0400
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"G9+KxdRLsja3yJvzhT9e0wP3li0HV5by6eJSbTOY1hg=", "review"=>{"name"=>"ewfewfew", "stars"=>"2", "comment"=>"efewfewrfwerwerwerwerewr"}, "commit"=>"Create Review", "book_id"=>"2"}
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (15.1ms)[0m  INSERT INTO "reviews" ("book_id", "comment", "created_at", "name", "stars", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["book_id", 2], ["comment", "efewfewrfwerwerwerwerewr"], ["created_at", Wed, 16 Apr 2014 00:24:54 UTC +00:00], ["name", "ewfewfew"], ["stars", 2], ["updated_at", Wed, 16 Apr 2014 00:24:54 UTC +00:00]]
+  [1m[36m (20.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/books/2/reviews
+Completed 302 Found in 41ms (ActiveRecord: 36.2ms)
+
+
+Started GET "/books/2/reviews" for 127.0.0.1 at 2014-04-15 20:24:55 -0400
+Processing by ReviewsController#index as HTML
+  Parameters: {"book_id"=>"2"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mReview Load (0.1ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = ? ORDER BY created_at desc[0m  [["book_id", 2]]
+  Rendered reviews/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-04-15 20:24:55 -0400
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-04-15 20:24:55 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-04-15 20:24:55 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:55 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:55 -0400
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-15 20:24:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:55 -0400
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-04-15 20:24:55 -0400
+
+
+Started GET "/books" for 127.0.0.1 at 2014-04-15 20:24:57 -0400
+Processing by BooksController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books" ORDER BY "books"."title" ASC LIMIT 5 OFFSET 0[0m
+  [1m[35mReview Load (0.4ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" IN (2, 3, 4, 1)
+  Rendered books/index.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 54ms (Views: 51.8ms | ActiveRecord: 1.0ms)
